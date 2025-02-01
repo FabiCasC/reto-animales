@@ -4,4 +4,5 @@ com\fabi\retoanimales\Acuatico.class
 com\fabi\retoanimales\Terrestre.class
 com\fabi\retoanimales\TipoAnimal.class
 com\fabi\retoanimales\Main.class
+com\fabi\retoanimales\test\AnimalTest.class
 com\fabi\retoanimales\Animal.class
