@@ -1,1 +1,7 @@
+com\fabi\retoanimales\config\AppConfig.class
+com\fabi\retoanimales\Volador.class
+com\fabi\retoanimales\Acuatico.class
+com\fabi\retoanimales\Terrestre.class
+com\fabi\retoanimales\TipoAnimal.class
 com\fabi\retoanimales\Main.class
+com\fabi\retoanimales\Animal.class

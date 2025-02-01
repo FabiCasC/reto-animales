@@ -8,6 +8,14 @@ package com.fabi.retoanimales;
  *
  * @author fabia
  */
-public class Volador {
-    
+public class Volador extends Animal {
+    public Volador(String nombre, String onomatopeya) {
+        super(nombre, onomatopeya);
+    }
+
+    @Override
+    public TipoAnimal getTipo() {
+        return TipoAnimal.VOLADOR;
+    }
 }
+

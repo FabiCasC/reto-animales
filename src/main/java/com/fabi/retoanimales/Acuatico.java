@@ -8,6 +8,13 @@ package com.fabi.retoanimales;
  *
  * @author fabia
  */
-public class Acuatico {
-    
+public class Acuatico extends Animal {
+    public Acuatico(String nombre, String onomatopeya) {
+        super(nombre, onomatopeya);
+    }
+
+    @Override
+    public TipoAnimal getTipo() {
+        return TipoAnimal.ACUATICO;
+    }
 }
