@@ -8,6 +8,6 @@ package com.fabi.retoanimales;
  *
  * @author fabia
  */
-public class TipoAnimal {
-    
+public enum TipoAnimal {
+    TERRESTRE, VOLADOR, ACUATICO
 }

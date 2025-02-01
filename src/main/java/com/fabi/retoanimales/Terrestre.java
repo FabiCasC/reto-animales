@@ -8,6 +8,13 @@ package com.fabi.retoanimales;
  *
  * @author fabia
  */
-public class Terrestre {
-    
+public class Terrestre extends Animal {
+    public Terrestre(String nombre, String onomatopeya) {
+        super(nombre, onomatopeya);
+    }
+
+    @Override
+    public TipoAnimal getTipo() {
+        return TipoAnimal.TERRESTRE;
+    }
 }
